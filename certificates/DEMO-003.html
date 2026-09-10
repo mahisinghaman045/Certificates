@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Certificate | Rohan Kumar Verma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f3f5f9;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-light: #64748b;
+            --accent-blue: #2563eb;
+            --whatsapp-green: #25D366;
+            --linkedin-blue: #0a66c2;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-main); margin: 0; padding: 20px; min-height: 100vh; }
+        .container { width: 100%; max-width: 900px; margin: 0 auto; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; background: var(--card-bg); padding: 15px 20px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .brand { font-size: 1.25rem; font-weight: 700; display: flex; align-items: center; gap: 8px; color: var(--text-main); }
+        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 24px; }
+        .card-info { background: var(--card-bg); padding: 16px; border-radius: 8px; border: 1px solid var(--border); text-align: center; }
+        .label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-light); font-weight: 600; display: block; margin-bottom: 5px; }
+        .value { font-size: 0.95rem; font-weight: 600; color: var(--text-main); word-break: break-word; }
+        .cert-container { background: var(--card-bg); border-radius: 12px; padding: 24px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); text-align: center; }
+        .cert-img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 24px; display: block; }
+        .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+        .btn { border: none; padding: 12px 24px; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: white; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-img { background: var(--accent-blue); }
+        .btn-pdf { background: #475569; }
+        .btn-wa { background: var(--whatsapp-green); }
+        .btn-li { background: var(--linkedin-blue); }
+        @media (max-width: 768px) {
+            body { padding: 10px; background: #fff; }
+            .container { max-width: 100%; }
+            .grid { grid-template-columns: 1fr; gap: 10px; }
+            .card-info { padding: 12px; text-align: left; display: flex; justify-content: space-between; align-items: center; }
+            .label { margin-bottom: 0; }
+            .value { text-align: right; font-size: 0.9rem; }
+            .header { padding: 12px; flex-direction: row; margin-bottom: 15px; }
+            .brand { font-size: 1.1rem; }
+            .cert-container { padding: 15px; border: none; box-shadow: none; }
+            .cert-img { margin-bottom: 20px; }
+            .actions { flex-direction: column; gap: 10px; }
+            .btn { width: 100%; padding: 14px; font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="brand"><i class="fas fa-certificate"></i> Aman Education Pvt. Ltd</div>
+        </div>
+        <div class="grid">
+            <div class="card-info"><span class="label">Student</span><span class="value">Rohan Kumar Verma</span></div>
+            <div class="card-info"><span class="label">Course</span><span class="value">Tally Prime Accounting</span></div>
+            <div class="card-info"><span class="label">Issued On</span><span class="value">02-Aug-2026</span></div>
+            <div class="card-info"><span class="label">Cert ID</span><span class="value">DEMO-003</span></div>
+        </div>
+        <div class="cert-container">
+            <img src="https://mahisinghaman045.github.io/Certificates/certificates/png/DEMO-003.png" alt="Certificate" class="cert-img">
+            <div class="actions">
+                <a href="https://mahisinghaman045.github.io/Certificates/certificates/png/DEMO-003.png" download="DEMO-003.png" class="btn btn-img"><i class="fas fa-download"></i> Download Image</a>
+                <a href="https://mahisinghaman045.github.io/Certificates/certificates/pdf/DEMO-003.pdf" class="btn btn-pdf" download="DEMO-003.pdf"><i class="fas fa-file-pdf"></i> Download PDF</a>
+                <a href="https://wa.me/?text=%5BCERT_EMOJI%5D%20I%20just%20completed%20the%20Tally%20Prime%20Accounting%21%20Check%20out%20my%20certificate%20here%3A%20https%3A%2F%2Fmahisinghaman045.github.io%2FCertificates%2Fcertificates%2FDEMO-003.html" target="_blank" class="btn btn-wa"><i class="fab fa-whatsapp"></i> Share Status</a>
+                <a href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Tally%20Prime%20Accounting&organizationName=Aman%20Education%20Pvt.%20Ltd&certId=DEMO-003&certUrl=https%3A%2F%2Fmahisinghaman045.github.io%2FCertificates%2Fcertificates%2FDEMO-003.html" target="_blank" class="btn btn-li"><i class="fab fa-linkedin"></i> Add LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
